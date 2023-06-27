@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import 'reset';
+@import 'fonts';
+@import 'header';
+@import 'loader';
+@import 'main';
+
+.container {
+    max-width: 1650px;
+    margin: 0 auto;
+}
