@@ -1,6 +1,6 @@
 #main {
     width: 100%;
-    height: 230vh;
+    // height: 230vh;
     padding-top: 55px;
     display: flex;
     background-color: #000;
@@ -71,6 +71,37 @@
 
     }
 }
+.search {
+    width: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    
+    ul{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        li {
+            width: 350px;
+            padding: 10px 0;
+            margin-bottom: 15px;
+            // background-color: rgba(255,255,255,0.4);
+
+            a {
+                span {
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space:normal;
+                }
+            }
+        }
+    }
+
+}
 
 .videoConts {
     width: 100%;
@@ -109,6 +140,7 @@
         }
         .channel {
             display: flex;
+            // align-items: flex-end;
             flex-direction: column;
             width:fit-content;
             

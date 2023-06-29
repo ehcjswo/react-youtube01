@@ -30,7 +30,17 @@
         width: calc(80% - 400px);
         text-align: right;
         padding-right: 40px;
-
+        position: relative;
+        
+        .glass {
+            // display: inline-block;
+            width: 20px;
+            height: 20px;
+            left: 350px;
+            top: 0;
+            color: #000;
+        }
+        
         input {
             padding: 10px;
             border-radius: 5px;
