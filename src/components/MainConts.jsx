@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Category, Videos } from './';
-import Loader from './Loader';
 
 const MainConts = () => {
     const [selectCategory, setSelectCategory] = useState('뉴진스');
