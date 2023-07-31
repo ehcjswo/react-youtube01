@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+## react.js, youtube api를 사용한 사이트 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://raw.githubusercontent.com/ehcjswo/react-youtube01/main/src/assets/images/intro/gitImg01.jpg" />
+<br><br>
+ 
+react로 youtube API를 활용해 제작한 유튜브 API 입니다. useState와 useEffect, useParams를 사용하여 유튜브 API 데이터와 서치 기능을 구현하였습니다.
+<br><br>
 
-## Available Scripts
+- Live Demo : https://react-youtube01.netlify.app/
 
-In the project directory, you can run:
+## 사용 스택 
+- React: JavaScript 기반의 프론트엔드 라이브러리로, 사용자 인터페이스를 구축하기 위해 사용됩니다.
+- react-router-dom: React 애플리케이션에서 클라이언트 사이드 라우팅을 구현하기 위한 라이브러리입니다. , , 그리고 와 같은 컴포넌트들을 사용하여 각 URL 경로에 해당하는 컴포넌트들을 렌더링합니다.
+- useEffect: 컴포넌트 렌더링과 관련하여 부수효과를 처리하기 위해 사용되는 Hook으로, API 호출 등의 비동기 작업을 수행합니다.
+- useState: 컴포넌트의 상태를 관리하기 위해 사용되는 Hook으로, selectCategory와 videos 상태를 관리합니다.
+- useNavigate: React Router의 Hook으로, 프로그래밍적으로 라우팅을 처리하기 위해 사용됩니다. 검색 결과 페이지로 이동하는데 사용됩니다.
+- useParams: React Router의 Hook으로, 현재 URL의 파라미터 값을 추출하는데 사용됩니다.
+- fetch: 비동기적으로 YouTube API를 호출하여 검색 결과를 가져옵니다.
+- onKeyPress: 키보드 이벤트를 처리하는 함수로, 검색어를 입력한 후 엔터 키를 누르면 검색 기능을 수행합니다.
+- 아이콘 라이브러리 : react-icons에서 제공하는 아이콘으로 npm i react-icons로 설치 후, import로 연동할 수 있습니다. (https://react-icons.github.io/react-icons/)
+<br><br>
 
-### `npm start`
+## 구현 내역
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 채널 카테고리
+- 서치 기능
+- 영상 정보
+<br>
