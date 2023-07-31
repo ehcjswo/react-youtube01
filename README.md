@@ -3,7 +3,8 @@
 <img src="https://raw.githubusercontent.com/ehcjswo/react-youtube01/main/src/assets/images/gitImg01.jpg" />
 <br><br>
  
-react로 youtube API를 활용해 제작한 유튜브 API 입니다. useState와 useEffect, useParams를 사용하여 유튜브 API 데이터와 서치 기능을 구현하였습니다.
+react로 youtube API를 활용해 제작한 유튜브 API 입니다. 
+useState와 useEffect, useParams를 사용하여 유튜브 API 데이터와 서치 기능을 구현하였습니다.
 <br><br>
 
 - Live Demo : https://react-youtube01.netlify.app/
